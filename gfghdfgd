@@ -1,0 +1,54 @@
+In:
+ import pandas as pd
+
+data = pd.read_excel(r"E:\Sanaz Assignment\Python\data_set.xlsx")
+
+# Read Excel file into a DataFrame
+df = pd.read_excel(r"E:\Sanaz Assignment\Python\data_set.xlsx")
+
+# Display the first few rows of the DataFrame
+print(df.head(13))
+
+out:
+   Engine Oil Level Sensor  Driver Weight Sensor(kg)  \
+0                         2                        65   
+1                         1                        53   
+2                         1                        68   
+3                         2                        82   
+4                         2                        76   
+5                         2                         0   
+6                         2                        73   
+7                         1                        74   
+8                         2                         0   
+9                         1                        74   
+10                        1                        74   
+11                        1                        62   
+12                        2                         0   
+                           PBP(psi)  Automobile Speed Sensor(rev/m)  \
+0                            800                               0   
+1                            850                            3000   
+2                            830                            4000   
+3                            840                               0   
+4                            910                               0   
+5                              0                               0   
+6                            852                            2700   
+7                            874                            4100   
+8                              0                               0   
+9                           1000                               0   
+10                          1100                               0   
+11                           963                               0   
+12                             0                               0   
+    12 V Electricity Power   PEPS Decision  
+0                      12.0              1  
+1                      12.0              0  
+2                      11.9              0  
+3                      12.0              1  
+4                      12.0              1  
+5                       0.0              0  
+6                      12.0              0  
+7                      11.8              0  
+8                       0.0              0  
+9                       0.0              1  
+10                     12.0              1  
+11                     12.0              1  
+12                     11.7              0  
